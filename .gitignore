@@ -1,0 +1,28 @@
+# .gitignore for NoPayStation Frontend
+
+# Dependencies
+node_modules/
+
+# Downloaded files & extracted game packages
+downloads/
+*.pkg
+*.zip
+*.vpk
+*.iso
+*.cso
+
+# Test & temporary scratch files
+test-ftp.js
+test.txt
+test_upload_dir/
+*.log
+
+# Binaries / third-party tools
+pkg2zip.exe
+NoPayStation/pkg2zip.exe
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
